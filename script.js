@@ -7,14 +7,14 @@
 let countToN = function(n)
 {
     // exception handling for negative or non-number values
-    if (toCountTo < 0 || typeof toCountTo == NaN)
+    if (n < 0 || typeof n == NaN)
     {
         console.log("Whoops! Invalid option");
     } // end if
     else
     {
         // loop from 0 to the user input value (inclusive)
-        for (let i = 0; i <= toCountTo; i++)
+        for (let i = 0; i <= n; i++)
         {
             console.log(i);
         }
