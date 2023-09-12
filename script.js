@@ -21,7 +21,7 @@ let countToN = function(n)
     } // end else
 }
 
-
+// readin user input
 let toCountTo = prompt("enter how long to count for!");
 
 countToN(toCountTo);
